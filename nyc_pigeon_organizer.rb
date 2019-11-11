@@ -12,8 +12,10 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  data[:color].each do |color, name|
-    hash[name] << color
+  data[:color].each do |color, names|
+    names.each do |name|
+      hash[name] << color
+    end
   end
   hash
 end
