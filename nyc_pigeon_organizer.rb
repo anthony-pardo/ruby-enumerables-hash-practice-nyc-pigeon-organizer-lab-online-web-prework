@@ -16,7 +16,8 @@ def nyc_pigeon_organizer(data)
   end
   
   names.each do |name|
-    
+    data.each do |attribute, value|
+    end
   end
   
   hash
