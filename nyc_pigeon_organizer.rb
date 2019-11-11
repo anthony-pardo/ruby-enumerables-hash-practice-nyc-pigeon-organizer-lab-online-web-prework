@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
           :gender=>[],
           :lives=>[]
         }
+        hash[name][]
       end
     end
   end
