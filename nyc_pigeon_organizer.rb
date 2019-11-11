@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  arr_keys = data.keys
+  
   
   hash
 end
